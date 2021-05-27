@@ -29,7 +29,7 @@ Events from opencanary look like this:
 
 You can do all sort of things with these logs. You could perform some data visualization to see where most of the malicious traffic is coming from. You could perform frequency analysis on credentials to see what usernames and passwords are most likely to be attempted. You might even customize service signatures to see if a particular version of a service is abused more often than another. Really the possibilities are only limited by how creative you want to get with it. 
 
-For me, I am using a custom python script and daily cronjob to retrieve, parse, and report these threat IP’s to AbuseIPDB. I am also doing some behind the scenes analyses on anomalous activity in the logs that piques my interest. 
+For me, I am using a custom python script and daily cronjob to retrieve, parse, and report these threat IP’s to AbuseIPDB. I am also doing some behind the scenes analysis on anomalous activity in the logs that piques my interest. 
 
 Here is a link to the repo containing my python script: https://github.com/tyrioslol/abuseipdb
 
