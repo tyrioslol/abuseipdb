@@ -18,7 +18,7 @@ hostip = 'host_ip'
 # replace with username on host box
 username = 'username on host'
 
-# replace with /path/to/privatekey
+# replace with the path to your private key
 privatekey = '/path/to/privatekey'
 
 # replace with your api key
