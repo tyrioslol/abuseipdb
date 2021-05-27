@@ -9,6 +9,10 @@ I thought this might be worth sharing for those that want to get into detection 
 
 My AbuseIPDB profile: https://www.abuseipdb.com/user/57866
 
+<a href="https://www.abuseipdb.com/user/57866" title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks" alt="AbuseIPDB Contributor Badge">
+	<img src="https://www.abuseipdb.com/contributor/57866.svg" style="width: 401px;">
+</a>
+
 *I took heavy inspiration for this project from https://m4lwhere.org/ who, if you are familiar, was the winner of the NCL Spring Preseason Individual event.*
 
 #### **What is a honeypot?**
