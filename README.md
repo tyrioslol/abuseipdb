@@ -23,7 +23,7 @@ A honeypot is a networked system put in place to intentionally attract the atten
 
 My honeypot is running several different [fake] services, including: FTP(21), SSH (22), Telnet (23), MSSQL (1433), MYSQL (3306), VNC (5000), and redis (6379). Anytime someone that is not me attempts to access or scan these services; an event is created that is then logged to the opencanary event log. 
 
-Events from opencanary look like this: 
+Events from OpenCanary are logged in json format and look like this: 
 
 ```
 {"dst_host": "172.31.14.62", "dst_port": 3306, "local_time": "2021-05-24 14:20:04.732789", "local_time_adjusted": "2021-05-24 14:20:04.732827", "logdata": {"PASSWORD": null, "USERNAME": "root"}, "logtype": 8001, "node_id": "winniethepooh", "src_host": "34.76.80.167", "src_port": 52956, "utc_time": "2021-05-24 14:20:04.732820"}
@@ -33,14 +33,14 @@ Events from opencanary look like this:
 
 You can do all sort of things with these logs. You could perform some data visualization to see where most of the malicious traffic is coming from. You could perform frequency analysis on credentials to see what usernames and passwords are most likely to be attempted. You might even customize service signatures to see if a particular version of a service is abused more often than another. Really the possibilities are only limited by how creative you want to get with it. 
 
-For me, I am using a custom python script and daily cronjob to retrieve, parse, and report these threat IP’s to AbuseIPDB. I am also doing some behind the scenes analysis on anomalous activity in the logs that piques my interest. 
+For me, I am using a custom python script and daily cronjob to retrieve, parse, and report these threat IP’s to AbuseIPDB. I am also additional analysis on any anomalous activity in the logs that piques my interest. 
 
 Here is a link to the repo containing my python script: https://github.com/tyrioslol/abuseipdb
 
 #### **Conclusion:** 
 
 I wanted to share my experience with building this honeypot in hopes that home labs and detection labs can be more approachable for people looking to get started. This is also an easy project with a huge payoff that you can add to your resume or portfolio. 
-If you have any questions, you can always ping me on discord. 
+If you have any questions, you can always ping me on discord @tyrios. 
 
 *p.s. I highly recommend reading m4lwhere’s blog on his website if you are interested in doing this yourself.*
 
