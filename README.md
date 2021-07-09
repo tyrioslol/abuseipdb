@@ -1,4 +1,4 @@
-# winnietheblue
+# WinnieTheBlue
 
 ### **Hello everyone!**
 
