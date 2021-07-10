@@ -2,7 +2,8 @@
 
 ### **Hello everyone!**
 
-With all this talk of home labs, I wanted to quickly share a personal project that I have been working on that recently came to fruition. #### Enter… Honeypot!
+With all this talk of home labs, I wanted to quickly share a personal project that I have been working on that recently came to fruition. 
+#### Enter… Honeypot!
 
 Over the past week I’ve created a fully functioning honeypot, paired with an automated log collector/parser that ingests logs from OpenCanary (the open source and lightweight honeypot framework utilized in the project) and reports each threat IP to AbuseIPDB. Both systems (the honeypot and the log-collector) run on an AWS EC2 debian-based micro instance, meaning that I was able to achieve all of this at absolutely ***ZERO COST***.
 
