@@ -23,7 +23,7 @@ A honeypot is a networked system put in place to intentionally attract the atten
 
 #### **How does it work?**
 
-My honeypot is running several different [fake] services, including: FTP(21), SSH (22), Telnet (23), MSSQL (1433), MYSQL (3306), VNC (5000), and redis (6379). Anytime someone that is not me attempts to access or scan these services, an event is created that is then logged to the OpenCanary event log. 
+My honeypot is running several different [fake] services, including: FTP(21), SSH (22), Telnet (23), MSSQL (1433), MYSQL (3306), VNC (5000), and redis (6379). Anytime someone attempts to access or scan these services, an event is created that is then logged to the OpenCanary event log. 
 
 Events from OpenCanary are logged in json format and look like this: 
 
