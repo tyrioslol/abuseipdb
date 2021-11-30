@@ -15,7 +15,7 @@ My AbuseIPDB profile: https://www.abuseipdb.com/user/57866
 	<img src="https://www.abuseipdb.com/contributor/57866.svg" style="width: 401px;">
 </a>
 
-*I took heavy inspiration for this project from https://m4lwhere.org/ who, if you are familiar, was the winner of the NCL Spring Preseason Individual event.*
+*I followed a writeup from https://m4lwhere.org/ for this project. I highly recommend checking out his site for more info on honeypots and their general purpose.*
 
 #### **What is a honeypot?**
 
